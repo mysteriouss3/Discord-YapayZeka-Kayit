@@ -2,9 +2,13 @@
 
 Bu repo, Mys API'nin Discord botu için kullanımını gösterir.
 
+## Mys API Npm Paketi
+
+Mys API'yi kullanmak için npm paketini [buradan](https://www.npmjs.com/package/mys-api.js) indirebilirsiniz.
+
 ## Komut ve Event
 
-## KOMUT
+- KOMUT
 ```js
 
 const { ActionRowBuilder,ButtonBuilder,ButtonStyle, } = require("discord.js");
@@ -33,7 +37,7 @@ components: [row]
 //bu yukarıdaki komut ile kanala menü gönderiyoruz...
 //Kullanıcı Tıkladıgında Tüm Sunuculardaki Isimlerini Ve En çok kullanıdıgı isim yaş cinsiyetini görebilcek.
 ```
-## EVENT
+- EVENT
 ```js
 const { Events, EmbedBuilder } = require("discord.js");
 const { MysAPI } = require('mys-api.js') // BU MODULU İNDİRMEYİ UNUTMAYIN INDIRMEK ICIN (npm i mys-api.js) yazmanız gerekmektedir.
